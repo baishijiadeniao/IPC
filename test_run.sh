@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ipc_test="pipe fifo socketpair tcp udp"
+ipc_test="pipe fifo socketpair uds tcp udp"
 ipc_size="128 256 512 1024 2048"
 ipc_count=10000
 
