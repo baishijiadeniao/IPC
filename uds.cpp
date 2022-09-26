@@ -14,7 +14,7 @@ double gettime(struct timeval* begin,struct timeval* end){
 }
 
 int main(int argc,char* argv[]){
-    int sum,count,size,yes,len;
+    int sum,count,size,len;
     struct timeval begin,end;
     char* buff;
     double t;

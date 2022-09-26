@@ -80,8 +80,9 @@ int main(int argc,char* argv[]){
         }
         gettimeofday(&end,NULL);
         t=gettime(&begin,&end);
-        close(fd);
-        printf("%.0fMB/s %.0fmsg/s\n",count * size * 1.0 / (t * 1024 * 1024),count * 1.0 / t);
+        printf("%.0fMB/s %.0fmsg/s\n",
+            count * size * 1.0 / (t * 1024 * 1024),
+            count * 1.0 / t);
     }
     return 0;
 }
